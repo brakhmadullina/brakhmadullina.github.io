@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    background-color: black;
+    color: #fff;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 50px 0;
+    position: relative;
+}
+
+header .logo {
+    text-transform: uppercase;
+    font-size: 29px;
+    font-weight: 800;
+}
+
+header nav {
+    float: right;
+    width: 50%;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    color: #fff
+}
+
+header nav ul li.active::after {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 5px;
+    background: #085902;
+    border-radius: 10px;
+    position: relative;
+    top: 10px;
+
+}
+
+.hero {
+    padding-bottom: 100px;
+    position: relative;
+    z-index: 1;
+}
+
+.hero--info {
+    width: 530px;
+    padding-top: 70px;
+    z-index: 2;
+    position: relative;
+}
+
+.hero--info h4 {
+    color: #085902;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.hero--info h1 {
+    font-size: 50px;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    line-height: 90%;
+}
+
+.hero--info p {
+    font-weight: 500;
+    line-height: 150%;
+    padding-bottom: 50px;
+}
+
+.hero--info .btn {
+    background: #085902;
+    color: #fff;
+    border-radius: 50px;
+    padding: 15px 30px;
+    border: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero--info .btn:hover {
+    cursor: pointer;
+}
+
+.hero img {
+    position: absolute;
+    top: 100px;
+    right: 0;
+    width: 400px;
+}
+
+
+.map--info h2 {
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    text-align: left;
+}
+
+.map img {
+    position: absolute;
+    top: 630px;
+    right: 350px;
+    padding-bottom: 50px;
+}
+
+
+.events {
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 70px;
+    padding-top: 30px;
+}
+
+table {
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    border-collapse: separate;
+    border-spacing: 5px;
+    background-image: url("https://get.wallhere.com/photo/sunlight-trees-landscape-forest-mountains-night-lake-nature-reflection-clouds-sunrise-evening-morning-mist-wilderness-dusk-cloud-tree-autumn-fog-leaf-mountain-weather-dawn-plant-season-natur-darkness-Wald-wolken-berge-b-ume-woodland-habitat-natural-environment-atmospheric-phenomenon-woody-plant-d-mmerung-thunersee-wetter-berneroberland-lakeofthoune-umgebung-niesen-549275.jpg");
+    color: #fff;
+    border: 8px solid #060505;
+    border-radius: 20px;
+    margin: auto;
+    width: 73%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+th {
+    font: 18px;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+}
+
+.sprav--info h2 {
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    text-align: left;
+}
+
+.sprav img {
+    position: absolute;
+    top: 670px;
+    right: 480px;
+    padding-bottom: 50px;
+}
+
+
+.features {
+    padding: 70px 0;
+}
+
+.feature p {
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 80px;
+    padding-top: 0px;
+}
+
+.feature h3 {
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 30px;
+    font-weight: 800;
+    color: #085902
+}
+
+.feature ul {
+    font-size: 16px;
+    padding-bottom: 80px;
+}
+
+.feature ol {
+    font-size: 16px;
+    padding-bottom: 80px;
+}
+
+
+.rating {
+    padding: 70px 0;
+}
+
+.rating h2 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.rating form {
+    margin: 80px auto;
+    width: 600px;
+} 
+
+.rating form .inline {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;;
+}
+
+.rating form .inline > div {
+    width: 50%;
+}
+
+.rating form label {
+    font-size: 14px;
+    margin-left: 10px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.rating form .inline input {
+    background: #060505;
+    border-radius: 10px;
+    border: 0.6px solid #626161;
+    display: block;
+    padding: 15px 10px;
+    outline: none;
+    color: #fff;
+    margin-top: 7px;
+    margin-bottom: 20px;
+    width: 90%;
+    font-size: 14px;
+}
+
+.rating form .one-line {
+    background: #060505;
+    border-radius: 10px;
+    border: 0.6px solid #626161;
+    display: block;
+    padding: 15px 10px;
+    outline: none;
+    color: #fff;
+    margin-top: 7px;
+    margin-bottom: 20px;
+    width: 90%;
+    font-size: 14px;
+}
+
+.rating form .one-line {
+    width: 95%;
+}
+
+.rating form .btn {
+    background: #085902;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    color: #fff;
+    padding: 15px 0;
+    width: 99%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+
+
+.feedback {
+    padding: 70px 0;
+}
+
+.feedback h2 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.feedback form {
+    margin: 80px auto;
+    width: 600px;
+} 
+
+.feedback form .inline {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feedback form .inline > div {
+    width: 50%;
+}
+
+.feedback form label {
+    font-size: 14px;
+}
+
+.feedback form input {
+    background: #060505;
+    border-radius: 10px;
+    border: 0.6px solid #626161;
+    display: block;
+    padding: 15px 10px;
+    outline: none;
+    color: #fff;
+    margin-top: 7px;
+    margin-bottom: 20px;
+    width: 90%;
+}
+
+.feedback form .one-line {
+    width: 95%;
+}
+
+.feedback form .btn {
+    background: #085902;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    color: #fff;
+    padding: 15px 0;
+    width: 99%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+.contacts .info {
+    width: 99%;
+    padding: 30px 0;
+}
+
+.contacts .info h2 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+
+.contacts .info .btn {
+    background: #085902;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    color: #fff;
+    padding: 15px 0;
+    width: 25%;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+.pic-container {
+    width: 600px;
+    height: 650px;
+    line-height: 650px;
+    text-align: center;
+    position: relative;
+}
+
+.pic-container > img {
+   vertical-align: middle;
+   margin-left: 65%;
+}
+

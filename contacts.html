@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+   
+<head>
+        <meta charset="UTF-8">
+        <title>ecosphere</title>
+        <link rel="stylesheet" href="/css/main.css">
+    </head>
+    
+    <body>
+        <div class="wrapper"></div>
+        <header class="container">
+            <span class="logo">ECOSPHERE</span>
+            <nav>
+                <ul>
+                <li><a href="/index.html">Главная</a></li>
+                <li><a href="/events.html">Мероприятия</a></li>
+                <li><a href="/about.html">О нас</a></li>
+                <li class="active"><a href="/contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+        </header>
+
+         <div class="feedback">
+            <div class="container">
+                <h2>Заполните анкету, и мы свяжемся с Вами</h2>
+
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="c9b7cc31-4434-46bf-87e4-301cf6d89990">
+
+                    <div class="inline">
+                        <div>
+                            <label>Имя</label>
+                            <input type="text" name="name">
+                        </div>
+                        <div>
+                            <label>Фамилия</label>
+                            <input type="text" name="surname">
+                        </div>
+                    </div>
+                    <label>Группа</label>
+                    <input type="text" class="one-line" name="group">
+
+                    <div class="inline">
+                        <div>
+                            <label>Мобильный телефон</label>
+                                <input type="tel" name="phone">
+                        </div>
+                        <div>
+                            <label>Адрес электронной почты</label>
+                            <input type="email" name="email">
+                        </div>
+                    </div>
+
+                    <label>Дата заполнения анкеты</label>
+                    <input type="date" class="one-line" name="date">
+
+                    <input type="submit" value="Отправить анкету" class="btn" name="Отправить анкету">
+                </form>
+            </div>
+        </div>
+
+        <div class="contacts container">
+            <div class="info">
+                <h2>Написать нам</h2>
+                <a href="https://t.me/whoisbellka" class="btn" target="_blank">Telegram</a>
+            </div>
+        </div>
+        
+        
+
+    </body>
+</html>
