@@ -1,2 +1,3 @@
 https://brakhmadullina.github.io/
-brakhmadullina.github.io/dom.html
+
+https://brakhmadullina.github.io/dom.html
