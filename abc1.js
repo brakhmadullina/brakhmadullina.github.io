@@ -1,6 +1,6 @@
  function determine() {
-let x = parseFloat(document.getElementById("x").value);
-let y = parseFloat(document.getElementById("y").value);
+let x = parseInt(document.getElementById("x").value);
+let y = parseInt(document.getElementById("y").value);
 
  console.log(x, y)
 
