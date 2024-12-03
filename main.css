@@ -46,7 +46,7 @@ img {
 
 .nav-item.active {
     color: black;
-    border-bottom: 2px solid #085902;
+    border-bottom: 4px solid #085902;
 }
 
 .btn-success {
